@@ -19,7 +19,7 @@ type FilterTab = 'standard' | 'faster' | 'cheaper';
 const PROMO_TEXT = '30% promo applied';
 const PROMO_ACTIVE = true;
 
-const PANEL_MIN_HEIGHT = 30;
+const PANEL_MIN_HEIGHT = 35;
 const PANEL_MAX_HEIGHT = 85;
 const SNAP_THRESHOLD = 65;
 
