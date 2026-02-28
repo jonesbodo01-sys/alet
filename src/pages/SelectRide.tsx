@@ -19,7 +19,7 @@ interface SelectRideProps {
 
 type FilterTab = 'recommended' | 'faster' | 'cheaper';
 
-const PANEL_MIN_HEIGHT = 36;
+const PANEL_MIN_HEIGHT = 35;
 const PANEL_MAX_HEIGHT = 85;
 const SNAP_THRESHOLD = 65;
 
