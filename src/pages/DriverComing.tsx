@@ -251,7 +251,7 @@ export const DriverComing: React.FC<DriverComingProps> = ({
     <div className="min-h-screen relative overflow-hidden">
       <MapBackground />
 
-      <DraggablePanel initialHeight={500} maxHeight={680} minHeight={350}>
+      <DraggablePanel initialHeight={500} maxHeight={680} minHeight={175}>
         <div className="space-y-6 pb-6">
           <motion.div className="text-center pt-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <h2 className="text-2xl font-bold text-gray-900 mb-2">{statusText}</h2>
